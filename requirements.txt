@@ -1,5 +1,4 @@
-tensorflow
-keras
+keras == 2.15.0
 scikit-learn
 streamlit
 joblib
