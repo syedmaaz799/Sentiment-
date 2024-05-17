@@ -1,6 +1,6 @@
-Keras
-Tensforflow
-Sklearn
-Streamlit
-Joblib
-Numpy
+keras
+tensforflow
+scikit-learn
+streamlit
+joblib
+numpy
