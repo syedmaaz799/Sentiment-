@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 import numpy as np
 import keras
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from keras.models import load_model
+from keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
 
 # Load the models and other components with error handling
