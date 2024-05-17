@@ -7,11 +7,11 @@ from sklearn.preprocessing import LabelEncoder
 
 # Load the models and other components with error handling
 try:
-    vectorizer = joblib.load('C:/Users/SONY/Desktop/vectorizer.pkl')
-    nb_model = joblib.load('C:/Users/SONY/Desktop/nb_model.pkl')
-    tokenizer = joblib.load('C:/Users/SONY/Desktop/tokenizer.pkl')
-    label_encoder = joblib.load('C:/Users/SONY/Desktop/label_encoder.pkl')
-    rnn_model = load_model('C:/Users/SONY/Desktop/rnn_model.h5')
+    vectorizer = joblib.load('vectorizer.h5')
+    nb_model = joblib.load('nb_model.h5')
+    tokenizer = joblib.load('tokenizer.h5')
+    label_encoder = joblib.load('label_encoder.h5')
+    rnn_model = load_model('rnn_model.h5')
 except Exception as e:
     st.error(f"Error loading models: {e}")
     st.stop()
